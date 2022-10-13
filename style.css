@@ -98,16 +98,20 @@ a {
 
 .taglinecontainer {
     width: 85%;
-    z-index: 1;
+    display: flex;
+    justify-content: center;
+    /* background: brown; */
 }
 .taglinecontainer--invcomma{
     position: absolute;
-    z-index: -1;
+    left: 7rem;
+    top: 10rem;
 }
 .taglinecontainer--invcomma img{
     width: 2.5rem;
 }
 .taglinecontainer--desc{
+    z-index: 10;
     font-size: 2rem;
     color: #07360F;
     font-weight: 600;
